@@ -248,3 +248,17 @@ const swiper = new Swiper('.swiper', {
   //   }
   // }
 });
+
+// счетчик в подкастах
+document.querySelectorAll('.podcasts__link').forEach(function(el) {
+  el.addEventListener('click', function() {
+      let count = this.querySelector('.podcasts__link-descr');
+      if (this.classList.contains('increace') !== true) {
+          count.textContent = parseInt(count.innerText, 10) + 1;
+          this.classList.add('increace');
+      } else {
+          count.textContent = parseInt(count.innerText, 10) - 1;
+          this.classList.remove('increace');
+      }
+  })
+})
