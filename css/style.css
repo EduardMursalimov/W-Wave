@@ -1105,11 +1105,6 @@ img {
   transition: background-color 0.2s ease-in-out, outline 0.2s ease-in-out;
 }
 
-/* .choices:focus-visible {
-  background-color: var(--select-background-focus);
-  outline: 1px solid var(--select-border-focus);
-} */
-
 .choices:hover {
   background-color: var(--select-background-hover);
 }
@@ -1120,7 +1115,7 @@ img {
 }
 
 .choices__inner {
-  min-height: auto;
+  min-height: min-content;
   padding: 12px;
   font-size: 16px;
   line-height: 16px;
@@ -2236,6 +2231,10 @@ footer {
 .footer__social-list {
   gap: 15px;
   margin-left: -3px;
+}
+
+.footer__social-link {
+  outline: none;
 }
 
 .footer__item-link {

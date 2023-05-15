@@ -95,7 +95,7 @@ validation
     },
   ]);
 
-  const validationModal = new JustValidate('#form-modal',
+const validationModal = new JustValidate('#form-modal',
   {
     errorFieldCssClass: 'is-invalid',
     errorFieldStyle: {
@@ -211,6 +211,7 @@ tabsBtn.forEach(function (element) {
 const swiper = new Swiper('.swiper', {
   direction: 'horizontal',
   loop: true,
+  loopedSlides: 1,
   navigation: {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',
@@ -250,15 +251,15 @@ const swiper = new Swiper('.swiper', {
 });
 
 // счетчик в подкастах
-document.querySelectorAll('.podcasts__link').forEach(function(el) {
-  el.addEventListener('click', function() {
-      let count = this.querySelector('.podcasts__link-descr');
-      if (this.classList.contains('increace') !== true) {
-          count.textContent = parseInt(count.innerText, 10) + 1;
-          this.classList.add('increace');
-      } else {
-          count.textContent = parseInt(count.innerText, 10) - 1;
-          this.classList.remove('increace');
-      }
+document.querySelectorAll('.podcasts__link').forEach(function (el) {
+  el.addEventListener('click', function () {
+    let count = this.querySelector('.podcasts__link-descr');
+    if (this.classList.contains('increace') !== true) {
+      count.textContent = parseInt(count.innerText, 10) + 1;
+      this.classList.add('increace');
+    } else {
+      count.textContent = parseInt(count.innerText, 10) - 1;
+      this.classList.remove('increace');
+    }
   })
 })
