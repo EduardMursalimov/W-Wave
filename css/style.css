@@ -1174,6 +1174,10 @@ img {
   outline: none;
 }
 
+.choices__list--single .choices__item {
+  width: 83%;
+}
+
 .choices__item {
   padding: 0;
 }
@@ -1426,7 +1430,7 @@ img {
 }
 
 .ac .ac-trigger {
-  padding: 34px 0 33px;
+  padding: 34px 75px 33px 0;
   font: 500 20px "Muller", sans-serif;
   line-height: 20px;
   color: var(--accordion-txt-clear);
@@ -1563,6 +1567,7 @@ img {
 .guests__item-btn {
   font-size: 16px;
   line-height: 24px;
+  text-align: start;
   color: #fff;
   cursor: pointer;
 }
@@ -1896,16 +1901,17 @@ input[type='radio']:checked {
 .shop__content {
   width: 40.3%;
   align-items: baseline;
-  background-image: url("../img/line-1920.svg");
-  background-repeat: no-repeat;
-  background-size: auto;
-  background-position-y: 114px;
-  background-position-x: -1px;
 }
 
 .shop__content-title {
-  margin-bottom: 49px;
+  margin-bottom: 19px;
+  padding-bottom: 30px;
   color: #f0d288;
+  background-image: url("../img/line-1920.svg");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position-y: bottom;
+  background-position-x: 0;
 }
 
 .shop__content-line {
@@ -2006,7 +2012,7 @@ input[type='radio']:checked {
 
 .about__top {
   margin-bottom: 29px;
-  padding-right: 414px;
+  padding-right: 476px;
   background-image: url("../img/about-1920.svg");
   background-repeat: no-repeat;
   background-position: right;
@@ -2209,19 +2215,17 @@ input[type='checkbox']:checked::before {
 
 footer {
   background-color: #292e39;
-  background-image: url("../img/footer.svg");
-  background-repeat: no-repeat;
-  background-size: auto;
-  background-position-y: 276px;
 }
 
 .footer__container {
+  padding-bottom: 74px;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
 .footer__link-logo {
-  margin-bottom: 17px;
+  margin-top: 1px;
+  margin-bottom: 16px;
 }
 
 .footer__social {
@@ -2279,11 +2283,17 @@ footer {
 }
 
 .footer__copyright {
+  margin: 0 auto;
   width: 100%;
   align-items: center;
+  background-image: url("../img/footer.svg");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position-y: top;
 }
 
 .footer__copyright-info {
+  padding-top: 22px;
   padding-bottom: 10px;
   text-align: center;
   text-transform: uppercase;
