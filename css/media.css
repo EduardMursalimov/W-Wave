@@ -171,6 +171,14 @@
     flex-basis: calc(((100% - (2 * (var(--gap-cards)))) /3) - 1px);
   }
 
+  .select-container {
+    margin-bottom: 227px;
+  }
+
+  .choices[data-type*=select-one] .choices__inner {
+    padding-bottom: 13px;
+  }
+
   .broadcasts__right {
     flex-basis: calc(100% - (calc((100% - (2 * (var(--gap-cards)))) /3)) - var(--gap-cards) + 0.67px);
   }
@@ -231,6 +239,7 @@
   .playlists__content {
     width: 100%;
     margin-top: 0;
+    margin-bottom: 13px;
   }
 
   .playlists__card-btn {
@@ -248,6 +257,9 @@
   .playlists__card {
     flex-direction: row;
     width: 254px;
+    height: 112px;
+    text-overflow: ellipsis;
+    overflow: hidden;
   }
 
   .playlists__card-pic img {
@@ -280,7 +292,7 @@
   }
 
   .shop__container {
-    padding-bottom: 95px;
+    padding-bottom: 94px;
   }
 
   .shop__product-pic {
@@ -295,6 +307,10 @@
 
   .shop__content {
     width: 65.5%;
+  }
+
+  .shop__content-price {
+    margin-bottom: 31px;
   }
 
   .about__top {
@@ -334,4 +350,8 @@
   .footer__copyright {
     background-position-x: -18px;
   }
+}
+
+@media (max-width: 950px) {
+
 }
