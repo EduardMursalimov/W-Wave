@@ -222,32 +222,32 @@ const swiper = new Swiper('.swiper', {
   },
   slidesPerView: 4,
   spaceBetween: 30,
-  // breakpoints: {
-  //   320: {
-  //     slidesPerView: 2.31,
-  //     spaceBetween: 20,
-  //   },
+  breakpoints: {
+    320: {
+      slidesPerView: 2.31,
+      spaceBetween: 20,
+    },
 
-  //   481: {
-  //     slidesPerView: 2,
-  //     spaceBetween: 20,
-  //   },
+    481: {
+      slidesPerView: 2,
+      spaceBetween: 20,
+    },
 
-  //   768: {
-  //     slidesPerView: 2,
-  //     spaceBetween: 30,
-  //   },
+    768: {
+      slidesPerView: 2,
+      spaceBetween: 30,
+    },
 
-  //   1025: {
-  //     slidesPerView: 3,
-  //     spaceBetween: 30
-  //   },
+    1025: {
+      slidesPerView: 3,
+      spaceBetween: 30
+    },
 
-  //   1280: {
-  //     slidesPerView: 4,
-  //     spaceBetween: 30
-  //   }
-  // }
+    1280: {
+      slidesPerView: 4,
+      spaceBetween: 30
+    }
+  }
 });
 
 // счетчик в подкастах
