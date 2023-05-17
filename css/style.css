@@ -2045,13 +2045,6 @@ input[type='radio']:checked {
   color: var(--txt-descr);
 }
 
-.about__top-background {
-  position: absolute;
-  background-image: url("../img/about-768.svg");
-  background-repeat: no-repeat;
-  background-position: right;
-}
-
 .swiper-wrapper {
   margin-bottom: var(--gap-cards);
 }
