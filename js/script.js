@@ -1,3 +1,22 @@
+// бургер
+let burger = document.querySelector('.header__burger');
+let menu = document.querySelector('.header__top-nav');
+let menuLinks = menu.querySelectorAll('.header__link');
+
+burger.addEventListener('click', function () {
+  burger.classList.toggle('header__burger--active');
+  menu.classList.toggle('header__top-nav--active');
+  document.body.classList.toggle('stop-scroll');
+})
+
+menuLinks.forEach(function (el) {
+  el.addEventListener('click', function () {
+    burger.classList.remove('header__burger--active');
+    menu.classList.remove('header__top-nav--active');
+    document.body.classList.remove('stop-scroll');
+  })
+})
+
 // search button
 let searchBtn = document.querySelector('.header__btn-search');
 let search = document.querySelector('.header__form');
@@ -228,8 +247,8 @@ const swiper = new Swiper('.swiper', {
       spaceBetween: 20,
     },
 
-    481: {
-      slidesPerView: 2,
+    660: {
+      slidesPerView: 2.31,
       spaceBetween: 20,
     },
 
