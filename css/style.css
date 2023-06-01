@@ -742,9 +742,9 @@ img {
 .modal-overlay {
   position: relative;
   margin: 0 auto;
-  padding: 60px;
+  padding: 60px 60px 54px;
   width: 704px;
-  height: 535px;
+  /* height: 535px; */
   background-color: #121723;
   transform: scaleY(0);
   transition: transform 0.2s ease-in-out;

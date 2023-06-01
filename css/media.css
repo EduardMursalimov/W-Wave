@@ -504,11 +504,20 @@
   }
 
   .modal-overlay {
-    width: 539px;
+    padding: 60px 39px 55px;
+    width: 461px;
+  }
+
+  .header__modal-form {
+    padding-bottom: 28px;
+  }
+
+  .header__modal-form__input {
+    margin-bottom: 28px;
   }
 
   .header__input {
-    width: 87%;
+    width: 86%;
   }
 
   .hero__container {
@@ -765,7 +774,64 @@
   .modal-overlay {
     padding: 42px 20px;
     width: 67.5%;
-    height: 39.8%;
+  }
+
+  .header__modal-title {
+    margin-bottom: 13px;
+  }
+
+  .header__modal-descr {
+    margin-bottom: 20px;
+    font-size: 12px;
+    line-height: 12px;
+  }
+
+  .header__modal-descr__link {
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .header__modal-form {
+    padding-bottom: 29px;
+  }
+
+  .header__modal-form__input {
+    margin-bottom: 20px;
+  }
+
+  .header__input {
+    padding: 11px 16px;
+    width: 78%;
+    font-size: 16px;
+    line-height: 16px;
+  }
+
+  .header__form-btn {
+    padding: 10px 55px;
+    font-size: 16px;
+    line-height: 16px;
+  }
+
+  .header__modal-social {
+    margin-top: 9px;
+    margin-bottom: 11px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+  }
+
+  .header__modal-list {
+    gap: 48px;
+  }
+
+  .header__modal-btn {
+    top: 21px;
+    right: 20px;
+  }
+
+  .header__modal-btn svg {
+    width: 28px;
+    height: 28px;
   }
 
   .shop__product {
@@ -780,7 +846,6 @@
   .swiper-button-next {
     display: none;
   }
-
 }
 
 @media (max-width: 560px) {
@@ -789,12 +854,6 @@
     margin-bottom: 9px;
     font-size: 24px;
     line-height: 24px;
-  }
-
-  .form {
-    padding: 16px 23px;
-    font-size: 16px;
-    line-height: 16px;
   }
 
   .header__container-top {
@@ -904,65 +963,15 @@
   }
 
   .modal-overlay {
-    padding: 42px 20px;
-    width: 67.5%;
-    height: 39.8%;
-  }
-
-  .header__modal-btn {
-    top: 21px;
-    right: 20px;
-  }
-
-  .header__modal-btn svg {
-    width: 28px;
-    height: 28px;
+    padding-bottom: 35px;
   }
 
   .header__modal-title {
     margin-bottom: 13px;
   }
 
-  .header__modal-descr {
-    margin-bottom: 20px;
-    font-size: 12px;
-    line-height: 12px;
-  }
-
-  .header__modal-descr__link {
-    font-size: 12px;
-    line-height: 18px;
-  }
-
-  .header__modal-form {
-    padding-bottom: 29px;
-  }
-
-  .header__modal-form__input {
-    margin-bottom: 20px;
-  }
-
   .header__input {
-    padding: 11px 16px;
     width: 84%;
-  }
-
-  .header__form-btn {
-    padding: 10px 55px;
-    font-size: 16px;
-    line-height: 16px;
-  }
-
-  .header__modal-social {
-    margin-top: 9px;
-    margin-bottom: 11px;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 24px;
-  }
-
-  .header__modal-list {
-    gap: 48px;
   }
 
   /* burger скорректировать */
@@ -1487,10 +1496,24 @@
   }
 
   .about__form-top__textarea {
-    padding-top: 16px;
+    padding: 16px 23px;
     width: 81.2%;
     height: 73.3%;
+    font-size: 16px;
+    line-height: 16px;
     border-radius: 20px;
+  }
+
+  .about__form-bottom__name {
+    padding: 16px 23px;
+    font-size: 16px;
+    line-height: 16px;
+  }
+
+  .about__form-bottom__email {
+    padding: 16px 23px;
+    font-size: 16px;
+    line-height: 16px;
   }
 
   .about__form-btn {
