@@ -905,7 +905,7 @@ img {
 }
 
 .podcasts__items {
-  margin-bottom: 57px;
+  margin-bottom: 61px;
   gap: var(--gap-cards);
 }
 
@@ -1458,11 +1458,6 @@ img {
   background-color: #121723;
 }
 
-.guests__container {
-  padding-top: 94px;
-  padding-bottom: 96px;
-}
-
 .guests__title {
   margin-bottom: 13px;
   color: #fff;
@@ -1725,6 +1720,7 @@ img {
 }
 
 .playlists__container {
+  padding-top: 95px;
   margin-bottom: -30px;
   gap: var(--gap-cards);
 }
@@ -1997,6 +1993,10 @@ input[type='radio']:checked {
 .shop__content {
   width: 40.3%;
   align-items: baseline;
+  background-image: url("../img/line-1920.svg");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: 0 115px;
 }
 
 .shop__content-title {
@@ -2004,11 +2004,11 @@ input[type='radio']:checked {
   padding-bottom: 30px;
   color: #f0d288;
   width: 100%;
-  background-image: url("../img/line-1920.svg");
+  /* background-image: url("../img/line-1920.svg");
   background-repeat: no-repeat;
   background-size: auto;
   background-position-y: bottom;
-  background-position-x: 0;
+  background-position-x: 0; */
 }
 
 .shop__content-line {

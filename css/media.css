@@ -301,7 +301,7 @@
   }
 
   .shop__product-label {
-    top: 18.7%;
+    top: 19.6%;
     left: 0;
     width: 100px;
   }
@@ -343,6 +343,10 @@
 
   .about__form-top {
     width: 99%;
+  }
+
+  .footer__container {
+    padding-top: 96px;
   }
 
   .footer__social {
@@ -578,7 +582,7 @@
   }
 
   .guests__container {
-    padding-bottom: 105px;
+    padding-bottom: 103px;
   }
 
   .guests__top {
@@ -647,11 +651,11 @@
 
   .shop__content {
     width: 100%;
+    background-image: url("../img/line-768.svg");
   }
 
   .shop__content-title {
-    width: 100%;
-    background-image: url("../img/line-768.svg");
+    width: 90%;
   }
 
   .shop__content-link {
@@ -761,6 +765,12 @@
     padding-left: 32px;
   }
 
+  .modal-overlay {
+    padding: 42px 20px;
+    width: 67.5%;
+    height: 39.8%;
+  }
+
   .shop__product {
     align-items: center;
   }
@@ -777,6 +787,18 @@
 }
 
 @media (max-width: 560px) {
+
+  .title-h2 {
+    margin-bottom: 9px;
+    font-size: 24px;
+    line-height: 24px;
+  }
+
+  .form {
+    padding: 16px 23px;
+    font-size: 16px;
+    line-height: 16px;
+  }
 
   .header__container-top {
     margin-top: 54px;
@@ -800,7 +822,37 @@
 
   .header__top-nav--active {
     width: 100%;
+    height: 15.6vh;
     padding: 61px 32px 24px;
+    background-image: none;
+  }
+
+  .header__top-nav--active .header__top-items {
+    height: 101%;
+  }
+
+  .header__top-nav--active .header__top-item {
+    margin-bottom: 40px;
+  }
+
+  .header__top-item:nth-child(3) {
+    margin-bottom: 0;
+  }
+
+  .header__top-item:nth-child(4) {
+    padding-top: 30px;
+  }
+
+  .header__top-item:nth-child(5) {
+    margin-bottom: 0;
+  }
+
+  .header__form {
+    right: 0;
+  }
+
+  .header__form-input {
+    width: 196px;
   }
 
   .header__bottom-nav {
@@ -824,6 +876,68 @@
 
   .header__air-container {
     display: block;
+  }
+
+  .modal-overlay {
+    padding: 42px 20px;
+    width: 67.5%;
+    height: 39.8%;
+  }
+
+  .header__modal-btn {
+    top: 21px;
+    right: 20px;
+  }
+
+  .header__modal-btn svg {
+    width: 28px;
+    height: 28px;
+  }
+
+  .header__modal-title {
+    margin-bottom: 13px;
+  }
+
+  .header__modal-descr {
+    margin-bottom: 20px;
+    font-size: 12px;
+    line-height: 12px;
+  }
+
+  .header__modal-descr__link {
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .header__modal-form {
+    padding-bottom: 29px;
+  }
+
+  .header__modal-form__input {
+    margin-bottom: 20px;
+  }
+
+  .header__input {
+    padding: 11px 16px;
+    width: 84%;
+  }
+
+  .header__form-btn {
+    padding: 10px 55px;
+    font-size: 16px;
+    line-height: 16px;
+  }
+
+  .header__modal-social {
+    margin-top: 9px;
+    margin-bottom: 11px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+  }
+
+  .header__modal-list {
+    gap: 48px;
   }
 
   /* burger */
@@ -854,11 +968,6 @@
     padding: 15px 43.5px;
     font-size: 16px;
     line-height: 16px;
-  }
-
-  .title-h2 {
-    font-size: 24px;
-    line-height: 24px;
   }
 
   .podcasts__title {
@@ -1135,7 +1244,7 @@
   }
 
   .guests__card-descr {
-    margin-bottom: 38px;
+    margin-bottom: 39px;
     width: 100%;
   }
 
@@ -1148,6 +1257,7 @@
   .playlists__container {
     position: relative;
     padding-top: 56px;
+    padding-bottom: 79px;
   }
 
   .playlists__title {
@@ -1173,11 +1283,11 @@
     overflow-y: hidden;
     overflow-x: scroll;
     height: auto;
-    width: 100%;
+    width: 90%;
   }
 
   .playlists__content {
-    margin-bottom: 1px;
+    margin-bottom: 3px;
   }
 
   .playlists__list-item {
@@ -1201,7 +1311,7 @@
     opacity: 0;
   }
 
-  .playlists__item-label__input:checked + .playlists__item-label__value {
+  .playlists__item-label__input:checked+.playlists__item-label__value {
     color: #fff;
     background-color: #6d31ee;
   }
@@ -1251,7 +1361,180 @@
     padding-left: unset;
   }
 
-  .playlists__info-descr {
+  .playlists__info {
+    padding-top: 27px;
+  }
 
+  .playlists__info-descr {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .playlists__info-copyrights {
+    font-size: 12px;
+    line-height: 22px;
+  }
+
+  .shop__content {
+    background-image: url("../img/line-320.svg");
+    background-position: -1px 58.4px;
+  }
+
+  .shop__content-title {
+    width: 100%;
+    margin-bottom: 11px;
+  }
+
+  .shop__product-label {
+    width: 63px;
+  }
+
+  .shop__product {
+    margin-bottom: 2px;
+  }
+
+  .shop__content-descr {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .shop__content-price {
+    margin-top: 0;
+    margin-bottom: 19px;
+    font-size: 24px;
+    line-height: 24px;
+  }
+
+  .shop__content-link {
+    display: flex;
+    align-items: center;
+    padding: 11.6px 14.5px;
+    font-size: 16px;
+    line-height: 16px;
+  }
+
+  .shop__link-logo {
+    padding-right: 6px;
+  }
+
+  .about__top {
+    margin-bottom: 30px;
+    padding-bottom: 0;
+  }
+
+  .about__top-background {
+    display: none;
+  }
+
+  .about__top-title {
+    margin-bottom: 12px;
+  }
+
+  .about__top-subtitle {
+    margin-bottom: 4px;
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  .about__top-descr {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .about__swiper-title {
+    margin-top: 7px;
+    margin-bottom: 5px;
+    width: 109px;
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .about__swiper-descr {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .about__swiper {
+    width: 113%;
+  }
+
+  .swiper-slide {
+    width: 113px;
+  }
+
+  .swiper-slide img {
+    max-width: 113px;
+  }
+
+  .about__container {
+    padding-bottom: 56px;
+  }
+
+  .about__form {
+    gap: 30px;
+  }
+
+  .about__form-top {
+    width: 100%;
+  }
+
+  .about__form-top__textarea {
+    padding-top: 16px;
+    height: 73.3%;
+    width: 81.2%;
+    border-radius: 20px;
+  }
+
+  .about__form-btn {
+    margin-bottom: 17px;
+    padding: 14.5px 42px;
+    font-size: 16px;
+    line-height: 16px;
+  }
+
+  .about__form-value {
+    font-size: 9px;
+    line-height: 9px;
+  }
+
+  @supports(-webkit-appearance: none) or (-moz-appearance: none) {
+    input[type='checkbox'] {
+      top: 2px;
+      width: 11px;
+      height: 11px;
+    }
+
+    .footer__container {
+      padding-bottom: 33px;
+    }
+
+    .footer__link-logo {
+      margin-bottom: 16px;
+    }
+
+    .footer__nav-list {
+      columns: 2;
+      column-gap: 17px;
+      margin-left: -9px;
+    }
+
+    .footer__nav-list__item {
+      margin-bottom: 24px;
+      font-size: 12px;
+      line-height: 12px;
+    }
+
+    .footer__container {
+      gap: 78px;
+    }
+
+    /* .footer__copyright {
+    background-image: url(../img/footer-320.svg);
+  } */
+
+    .footer__copyright-info {
+      font-size: 12px;
+      line-height: 12px;
+    }
   }
 }
