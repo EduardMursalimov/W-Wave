@@ -362,7 +362,7 @@
 
   .header__burger {
     display: block;
-    position: absolute;
+    position: relative;
     z-index: 3;
     width: 24px;
     height: 24px;
