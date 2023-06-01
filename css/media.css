@@ -941,6 +941,10 @@
     width: 100%;
   }
 
+  .header__air-list {
+    justify-content: center;
+  }
+
   .header__air-item {
     padding-left: 0;
   }
