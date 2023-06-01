@@ -821,7 +821,7 @@
   }
 
   .header__top-nav--active {
-    width: 100%;
+    width: 80%;
     height: 15.6vh;
     padding: 61px 32px 24px;
     background-image: none;
@@ -859,6 +859,19 @@
     width: 0;
     visibility: hidden;
     opacity: 0;
+  }
+
+  .header__bottom-items {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .header__bottom-air {
+    width: 100%;
+  }
+
+  .header__air-item {
+    padding-left: 0;
   }
 
   .header__air-item:nth-child(1) {
@@ -1257,7 +1270,7 @@
   .playlists__container {
     position: relative;
     padding-top: 56px;
-    padding-bottom: 79px;
+    padding-bottom: 80px;
   }
 
   .playlists__title {
@@ -1265,7 +1278,7 @@
   }
 
   .playlists__select {
-    margin-bottom: 35px;
+    margin-bottom: 33px;
     height: unset;
   }
 
@@ -1287,7 +1300,7 @@
   }
 
   .playlists__content {
-    margin-bottom: 3px;
+    margin-bottom: 0;
   }
 
   .playlists__list-item {
@@ -1325,6 +1338,7 @@
   .playlists__card-pic img {
     min-width: unset;
     max-width: unset;
+    object-fit: cover;
     height: 113px;
   }
 
@@ -1376,7 +1390,7 @@
   }
 
   .shop__content {
-    background-image: url("../img/line-320.svg");
+    /* background-image: url("../img/line-320.svg"); */
     background-position: -1px 58.4px;
   }
 
@@ -1463,10 +1477,11 @@
   }
 
   .swiper-slide img {
-    max-width: 113px;
+    min-width: 113px;
   }
 
   .about__container {
+    padding-top: 53px;
     padding-bottom: 56px;
   }
 
@@ -1509,7 +1524,7 @@
     }
 
     .footer__link-logo {
-      margin-bottom: 16px;
+      margin-bottom: 13px;
     }
 
     .footer__nav-list {
