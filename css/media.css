@@ -856,14 +856,29 @@
   }
 
   .header__bottom-nav {
-    width: 0;
+    position: absolute;
+    top: 211%;
+    right: 0;
+    left: 0;
+    background-color: #fff;
+    padding: 30px 32px;
     visibility: hidden;
     opacity: 0;
   }
 
+  .header__bottom-nav--active {
+    visibility: visible;
+    opacity: 1;
+  }
+
   .header__bottom-items {
+    display: none;
+  }
+
+  .header__bottom-items--active {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
   }
 
   .header__bottom-air {
