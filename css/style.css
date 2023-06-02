@@ -2382,3 +2382,12 @@ footer {
 .is-invalid {
   border-color: var(--form-error);
 }
+
+.about__form-label .is-label-invalid {
+  position: absolute;
+  top: 22px;
+  left: 0;
+  color: var(--form-error) !important;
+  font-size: 12px;
+  line-height: 12px;
+}
