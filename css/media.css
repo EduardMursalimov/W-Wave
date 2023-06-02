@@ -876,7 +876,7 @@
   }
 
   .header__top-nav--active {
-    height: auto;
+    height: 225px;
     background-image: none;
   }
 
@@ -915,7 +915,6 @@
     position: absolute;
     z-index: 1;
     top: -225vh;
-    /* top: 25vh; */
     right: 0;
     left: 0;
     padding: 30px 32px;
@@ -927,7 +926,7 @@
   }
 
   .header__bottom-nav--active {
-    top: 25vh;
+    top: 225px;
     visibility: visible;
     opacity: 1;
   }
