@@ -1,11 +1,14 @@
 // бургер
 let burger = document.querySelector('.header__burger');
 let menu = document.querySelector('.header__top-nav');
+let nav = document.querySelector('.header__bottom-nav');
 let menuLinks = menu.querySelectorAll('.header__link');
+let navLinks = nav.querySelectorAll('.header__link')
 
 burger.addEventListener('click', function () {
   burger.classList.toggle('header__burger--active');
   menu.classList.toggle('header__top-nav--active');
+  nav.classList.toggle('header__bottom-nav--active');
   document.body.classList.toggle('stop-scroll');
 })
 
@@ -13,6 +16,16 @@ menuLinks.forEach(function (el) {
   el.addEventListener('click', function () {
     burger.classList.remove('header__burger--active');
     menu.classList.remove('header__top-nav--active');
+    nav.classList.remove('header__bottom-nav--active');
+    document.body.classList.remove('stop-scroll');
+  })
+})
+
+navLinks.forEach(function (el) {
+  el.addEventListener('click', function () {
+    burger.classList.remove('header__burger--active');
+    menu.classList.remove('header__top-nav--active');
+    nav.classList.remove('header__bottom-nav--active');
     document.body.classList.remove('stop-scroll');
   })
 })
@@ -249,7 +262,7 @@ const swiper = new Swiper('.swiper', {
 
     660: {
       slidesPerView: 2.31,
-      spaceBetween: 20,
+      spaceBetween: 18,
     },
 
     768: {
